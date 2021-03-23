@@ -11,6 +11,6 @@ public class JunitTest {
     public void justAnExample() {
         String variable = System.getenv("DISABLE_AUTH");
         System.out.println(variable);
-        assertEquals(variable, "true");
+        assertEquals("true", variable);
     }
 }
